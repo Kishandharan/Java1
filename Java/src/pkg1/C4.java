@@ -8,13 +8,13 @@ public class C4 {
 		String str1 = "Hello";
 		String str2 = "";
 		char[] chararr1 = str1.toCharArray();
-		ArrayList<Character> arr1 = new ArrayList<>();
+		ArrayList<Character> list1 = new ArrayList<>();
 
 		for (char c : chararr1) {
-			arr1.add(c);
+			list1.add(c);
 		}
-		Collections.shuffle(arr1);
-		for (char c : arr1) {
+		Collections.shuffle(list1);
+		for (char c : list1) {
 			str2 += c;
 		}
 
